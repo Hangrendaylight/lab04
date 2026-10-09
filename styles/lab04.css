@@ -16,10 +16,8 @@ h1 {
     font-size: 2em; 
     font-weight: bold; 
 }
- * { font-family: calibri, sans-serif; }
-body{
-    color:#2F4F4F;
- }
+ * { font-family: calibri, sans-serif;
+color: #2F4F4F }
  h2{
     color:rgb(0,128,128);
     font-size: 150%;
