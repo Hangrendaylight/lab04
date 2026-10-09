@@ -23,14 +23,14 @@ body{
  h2{
     color:rgb(0,128,128);
     font-size: 150%;
-    font-style:bold;
+    font-weight:bold;
  }
-  aside, footer { font-style: italic; } 
-table{
+aside, footer { font-style: italic; } 
+table,th,td{
     border : 1px solid black;
 }
 #images {
-         text-align : center;  /* careful: center has US spelling */
+         text-align : center;
 }
 #introduction {
     text-align: center;
@@ -39,11 +39,19 @@ table{
           color: darkorange;
           font-weight:bold;
 }
-nav a {
+nav a{
           text-decoration: none;
+          color: black;
           padding:0.2em 0.6em;
           border: 4px solid #ccc;
          }           
 aside:hover {
     display: none;
+}
+.introduction {
+    color: darkorange;
+}
+nav a:hover{
+    background-color:lightblue;
+    border-color : darkblue;
 }
